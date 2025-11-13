@@ -41,8 +41,6 @@ All tasks are executed concurrently using `tokio::spawn` for improved performanc
 
 - **No HTTP Timeouts/Retries**: Kept implementation simple without retry logic or custom timeouts. For production use, these would be valuable additions.
 
-- **tokio::spawn vs futures::join_all**: Chose `tokio::spawn` since tokio was already a dependency, avoiding an additional crate.
-
 ## Dependencies
 
 - `tokio`: Async runtime for concurrent task execution
