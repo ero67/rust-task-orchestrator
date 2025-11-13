@@ -50,5 +50,5 @@ All tasks are executed concurrently using `tokio::spawn` for improved performanc
 
 ## AI-Assisted Development
 
-This project was developed with AI-assisted tools (Cursor AI) for code generation, explanation, and guidance throughout the implementation process.
+This project was developed with AI-assisted tools for explanation and guidance throughout the implementation process.
 
